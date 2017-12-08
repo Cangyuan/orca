@@ -46,3 +46,39 @@ export default {
   }
 }
 </script>
+<style>
+  .co-content{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  .co-content>p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    letter-spacing: 6px;
+  }
+  .co-content>ul{
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .co-content>ul>li{
+    display: table-cell;
+    text-align: center;
+    width: 25%;    
+  }
+  .co-content>ul>li>a{
+    opacity: .4;
+    color: #777;
+  }
+  .co-content>ul>li>a:hover{
+    opacity: 1;
+    color: #000
+  }
+  .co-content>ul>li>a>img{
+    width: 40px;
+    margin: 10px 0;
+  }
+</style>

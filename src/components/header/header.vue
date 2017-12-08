@@ -203,4 +203,18 @@ export default {
 .navActive{
   color: #b4b4b4!important;
 }
+.chicken{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.chicken>img{
+  height: 100%;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
 </style>

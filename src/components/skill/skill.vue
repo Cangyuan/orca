@@ -67,7 +67,7 @@ export default {
   name: 'skill',
   data () {
     return {
-      msg: 'header part'
+      // msg: 'header part'
     }
   }
 }
@@ -91,4 +91,42 @@ export default {
   height: 100%;
   background: rgba(0,0,0,.4);
  } 
+ .sk-skill{
+ 	color: #fff;
+ }
+ .wrap-sk{
+ 	position: relative;
+ 	z-index: 4;
+ }
+ .sk-content{
+ 	color: #fff;
+ 	padding: 0 20px;
+ 	margin-top: 15px;
+ }
+ .sk-content>ul{
+ 	display: table;
+ 	width: 100%;
+ }
+ .sk-content>ul>li{
+ 	display: table-cell;
+ 	width: 25%;
+ 	text-align: center;
+ }
+ .sk-co-title>p{
+ 	font-style: italic;
+ 	color: #ccc;
+ 	margin: 10px 0 20px 0;
+ }
+ .sk-list{
+ 	width: 100%;
+ }
+ .sk-list>li{
+ 	width: 90%;
+ 	padding: 15px 0;
+ 	margin: 15px auto;
+ 	border:1px solid #fff;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px;
+ 	font-size: 16px;
+ }
 </style>

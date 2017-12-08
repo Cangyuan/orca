@@ -7,10 +7,37 @@
     </div>
     <div class="foot-content">
       <div class="foot-content">
-                <div class="event_wrap clearfix">
-                <div class="middle_line"><i class="first"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="last"></i><i class="first"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="last"></i></div>   
-              <div class="list_left list"><span class="big_squre"><i>2015</i></span><div class="ev_text ev_text_event ev_t2" :class="footActive?'aActiveWid':''"><span class="small_squire"><i></i></span><span class="small_line"></span><h3>佛山市亿动网络有限公司</h3><p>2015年2月~2016年3月</p><p>产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作</p></div></div><div class="list_right list"><span class="big_squre"><i>2017</i></span><div class="ev_text ev_text_event ev_t3" :class="footActive?'aActiveWid':''"><span class="small_squire"><i></i></span><span class="small_line"></span><h3>广东辰宜信息科技有限公司</h3><p>2016年3月至今</p><p>负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等</p></div></div></div>
-              </div>
+        <div class="event_wrap clearfix">
+          <div class="middle_line"><i class="first"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="last"></i><i class="first"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="last"></i>
+          </div>   
+          <div class="list_left list">
+            <span class="big_squre"><i>2017</i></span>
+            <div class="ev_text ev_text_event ev_t2" :class="footActive?'aActiveWid':''">
+              <span class="small_squire"><i></i></span><span class="small_line"></span>
+              <h3>佛山市亿动网络有限公司</h3>
+              <p>2015年2月~2016年3月</p><p>产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作</p>
+            </div>
+          </div>
+          <div class="list_right list">
+            <span class="big_squre"><i>2017</i></span>
+            <div class="ev_text ev_text_event ev_t3" :class="footActive?'aActiveWid':''">
+              <span class="small_squire"><i></i></span><span class="small_line"></span>
+              <h3>广东辰宜信息科技有限公司</h3>
+              <p>2016年3月至今</p>
+              <p>负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等</p>
+            </div>
+          </div>
+          <div class="list_right list">
+            <span class="big_squre"><i>2017</i></span>
+            <div class="ev_text ev_text_event ev_t3" :class="footActive?'aActiveWid':''">
+              <span class="small_squire"><i></i></span><span class="small_line"></span>
+              <h3>广东辰宜信息科技有限公司</h3>
+              <p>2016年3月至今</p>
+              <p>负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等</p>
+            </div>
+          </div>
+        </div>
+        </div>
     </div>
     </div>
   </section>
@@ -44,7 +71,6 @@ export default {
   methods:{
 
     events:function(){
-      alert('111')
       var $text = $('.event_wrap .list .ev_text');
       var point = [];
       $text.each(function(index, el) {      
@@ -73,8 +99,8 @@ export default {
     }
   },
   mounted:function(){
-    this.events();
-    $('.event_wrap').eventFlow({'events':this.bigEvent});
+     this.events();
+    // $('.event_wrap').eventFlow({'events':this.bigEvent});
   }
 }
 </script>

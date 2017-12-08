@@ -18,7 +18,7 @@
   	    <div class="ab-content">
   	      <div class="wrap-me"><img src="./me.jpg" alt=""></div>
   	      <p><strong>orca</strong></p>
-  	      <p>现居地 广东<span>·</span>佛山</p>
+  	      <p>现居地 浙江<span>·</span>杭州</p>
   	      <p>web前端开发工程师</p>
   	      <p>新乡医学院<span>·</span>本科</p>
   	      <p>爱好<span>·</span>看书<span>·</span>跑步</p>
@@ -47,7 +47,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      // msg: 'Welcome to Your Vue.js App'
     }
   }
 }
@@ -101,5 +101,49 @@ export default {
   color: #ccc;
   text-align: center;
   letter-spacing: 2px;
+}
+#about{
+  padding: 30px 0;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0;
+  -webkit-transition: all 2 ease;
+  -moz-transition: all 2 ease;
+  -ms-transition: all 2 ease;
+  -o-transition: all 2 ease;
+  transition: all 2 ease;
+}
+.ab-content{
+  padding: 0 20%;
+}
+/*.onload{
+  width: 100%;
+  height: 100%;
+}*/
+.ab-content>p{
+  text-align: center;
+  color: #424242;
+  padding: 6px 0;
+}
+.ab-content>p>span{
+  padding: 2px 4px 0 4px;
+  color: #1e1e34;
+  font-weight: 400;
+  font-size: 20px;
+}
+.ab-content>p:nth-of-type(1){
+  font-size: 18px;
+}
+.wrap-me{
+  width: 300px;
+  height:300px;
+  overflow: hidden;
+  transform: rotate(-45deg);
+  margin: 70px auto;
+}
+.wrap-me>img{
+  width: 300px;
+  height: 300px;
+  transform: rotate(45deg) scale(1.38);
 }
 </style>

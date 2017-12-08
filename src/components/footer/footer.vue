@@ -18,4 +18,14 @@ export default {
 </script>
 <style>
 
+footer{
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.wrap-bottom p{
+  padding: 15px 0;
+}
 </style>
