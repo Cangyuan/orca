@@ -1,6 +1,6 @@
 # orca
 
-> A Vue.js project
+> orca个人在线简历，[点击查看](https://cangyuan.github.io/orca)
 
 ## Build Setup
 
@@ -19,7 +19,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-
-
-/dist/

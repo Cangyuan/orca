@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <v-header></v-header>
-    <router-view/>
-    <v-footer></v-footer>
+    <v-me></v-me>
+    <div class="wrap">
+      <v-header></v-header>
+      <router-view/>
+      <v-footer></v-footer>
+    </div>   
   </div>
 </template>
 
 <script>
+import me from '@/components/me/me'
 import header from '@/components/header/header'
 import footer from '@/components/footer/footer'
 export default {
   name: 'app',
   components: {
+    'v-me': me,
     'v-header': header,
     'v-footer': footer
   },
@@ -19,6 +24,9 @@ export default {
     this.$api.get('topics', null, r => {
       console.log(r)
     })
+  },
+  methods:{
+    
   },
   mounted:function(){
     //滚动加载css3动画  

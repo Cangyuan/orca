@@ -22,7 +22,7 @@
   		          	<div class="small-nav">
   		          		<img src="images/nav.png" alt="">
   		          	</div>
-  		          	<span class="head-me"><img src="./me.png" alt=""></span>
+  		          	<span class="head-me" @click="openMe"><img src="./me.png" alt=""></span>
   		            <ul>
   		              <li><a href="#home">首页</a></li>
   		              <li><a href="#about">关于</a></li>
@@ -55,9 +55,11 @@ export default {
     }
   },
   methods:{
-    // navJump(id){
-    
-    // }
+    openMe:function(){
+      $('.me-info').addClass('open-me');
+      $('.wrap').addClass('remove');
+      $('.main-bg').css('display', 'block');
+    }
   }
 }
 </script>
