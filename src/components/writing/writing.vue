@@ -14,8 +14,9 @@
   	          </div>
   	          <div class="w-txt">
   	          	<h3>广东辰宜信息科技官网</h3>
-  	          	<p><strong>开发时间:</strong>2016年10月</p>
-  	          	<p><strong>工作详情:</strong>页面设计以及前端制作</p>
+  	          	<p><strong>开发时间:</strong>2016年4月</p>
+  	          	<p><strong>工作详情:</strong>响应式布局PC端和移动端，运用 angular+jqurey+java进行前端UI布局以及
+开发工作。</p>
   	          </div>
   	        </a>
   	      </li>
@@ -27,34 +28,35 @@
   		        <div class="w-txt">
   		        	<h3>南海区一窗通办填表系统</h3>
   		        	<p><strong>开发时间:</strong>2016年6月</p>
-  		        	<p><strong>工作详情:</strong>页面设计以及前端制作</p>
+  		        	<p><strong>工作详情:</strong>根据设计效果图完成psd切图,DIV/CSS布局， JavaScript效果渲染、与后台接口对接等前端相关的开发工作。</p>
   		        </div>
   		    </a>
   	      </li>
   	      <li>
-  		      <a class="w-link" href="/spare" target="_blank">
+  	      	<a class="w-link" href="javascript:;" target="_blank">
   		        <div class="wr-img">
-  		          <img src="./qi.jpg" alt="辰宜">
+  		          <img src="./psAr.jpg" alt="orca个人博客">
   		        </div>
   		        <div class="w-txt">
-  		        	<h3>绮罗生资源站</h3>
-  		        	<p><strong>开发时间:</strong>2015年11月</p>
-  		        	<p><strong>工作详情:</strong>页面设计以及前端制作</p>
+  		        	<h3>我的博客</h3>
+  		        	<!-- <p><strong>开发时间:</strong>2015年11月</p> -->
+  		        	<p><strong>详情:</strong>github+hexo+git搭建自主博客</p>
+  		        </div>
+  		    </a>
+  	      </li>
+  	      <li>
+  		      <a class="w-link" href="/sell" target="_blank">
+  		        <div class="wr-img">
+  		          <img src="./qi.jpg" alt="饿了么">
+  		        </div>
+  		        <div class="w-txt">
+  		        	<h3>仿饿了么平台</h3>
+  		        	<!-- <p><strong>开发时间:</strong>2015年11月</p> -->
+  		        	<p><strong>工作详情:</strong>node+vue2+vue-router+axois+sass构建商品页，商家页面，购物页面等</p>
   		        </div>
   		      </a>
   	      </li>
-  	      <li>
-  	      	<a class="w-link" href="javascript:;">
-  		        <div class="wr-img">
-  		          <img src="./psAr.jpg" alt="axure、ps等设计图片">
-  		        </div>
-  		        <div class="w-txt">
-  		        	<h3>设计demo</h3>
-  		        	<!-- <p><strong>开发时间:</strong>2015年11月</p> -->
-  		        	<p><strong>详情:</strong>网页设计、页面设计、图片制作等demo</p>
-  		        </div>
-  		    </a>
-  	      </li>
+  	      
   	    </ul>
   	  </div>
   	</section>

@@ -146,4 +146,111 @@ export default {
   height: 300px;
   transform: rotate(45deg) scale(1.38);
 }
+
+
+@media screen and (max-width: 890px){
+  #skill, #foot, #writing, #contact{
+    padding:0!important;  
+  }
+  .wr-title{
+    padding-bottom: 0!important; 
+  }
+  #skill, #foot{
+    padding-bottom: 40px!important; 
+  }
+  p{
+    line-height: 1.6!important;    
+  }
+  .sk-co-title p,.sk-list li{
+     font-size: .5rem!important;   
+  }
+  .info-wrap{
+    background-size: cover!important;   
+  }
+  .se-title>h2{
+    letter-spacing: .1rem!important;   
+  }
+  .se-title>span{
+    width: 20%!important;   
+  }
+  .top-title>span{
+    display: none!important;   
+  }
+  .ab-content>p{    
+    padding: 0!important;   
+  }
+  #header-wrap{
+    position: relative!important;  
+    height:42px;
+  }
+  .wrap-me{
+    width: 150px!important;   
+    height: 150px!important;     
+  }
+  .wrap-me>img{
+    width: 150px!important;   
+    height: 150px!important;   
+  }
+  .sk-content>ul>li{
+    display: block;
+    width: 100%;
+  }
+  .wr-content>ul,.co-content>ul{
+    display: flex!important;  
+    width: 100%!important;  
+    flex-flow: row wrap!important;  
+    align-content: flex-start!important;  
+  }
+  .wr-content>ul>li,.co-content>ul>li{
+    flex: 0 0 50%!important;  
+    padding: 3%!important;  
+    display: block!important;  
+  }
+  .co-content>ul>li{
+    padding: 3% 0!important;  
+  }
+  .co-content>p{
+    margin-bottom:10px!important; 
+  }
+  .w-txt>h3{
+    font-size: .8rem!important;  
+  }
+  .nav-wrap>nav>ul{
+    position: absolute!important;  
+      top: 37px!important;  
+      right: 0!important;  
+      width: 100px!important;  
+      z-index: 999!important;  
+      background: #111!important;  
+      display: none!important;  
+  }
+  .nav-wrap>nav>ul>li{
+    display: block!important;  
+    text-align: center!important;  
+  }
+  .small-nav{
+    display: block!important;  
+    height: 100%!important;  
+    float: right!important;  
+    margin-left: 4px!important;  
+  }
+  .small-nav>img{
+    display: block!important;  
+    height: 100%!important;  
+    padding: 6px!important;  
+    box-sizing: border-box!important;  
+  }
+  .info-wrap{
+    height: 148px!important;  
+  }
+  .info-img{
+    padding-top: 10px!important;  
+  }
+  .info-img>img{
+    width: 60px!important;  
+  }
+  .wr-content{
+    padding: 0
+  }
+}
 </style>

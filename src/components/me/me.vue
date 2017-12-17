@@ -4,7 +4,7 @@
 			<span class="close" @click="closeMe">&times</span>
 			<div class="me-pic">
 				<div class="me-wrap">
-					<img src="images/me-open.jpg" alt="">
+					<img src="./me-open.jpg" alt="">
 				</div>			
 			</div>		
 			<h3>orca</h3>

@@ -10,26 +10,26 @@
       <ul>
         <li>
           <a href="http://wpa.qq.com/msgrd?v=3&uin=1339918746&site=qq&menu=yes" target="_blank">
-            <img src="./QQ.png" alt="1339918746">
+            <i class="iconfont icon-qq"></i>
             <p>1339918746</p>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/Orca_2017" target="_blank">
-            <img src="./twitter.png" alt="orca">
+          <a href="https://www.linkedin.com/in/orca2017/" target="_blank">
+            <i class="iconfont icon-linkedin"></i>
             <p>@orca</p>
           </a>
         </li>
         <li>
           <a href="https://github.com/Cangyuan" target="_blank">
-            <img src="./github.png" alt="cangyuan" title="cangyuan">
+            <i class="iconfont icon-github"></i>
             <p>@cangyuan.github</p>
           </a>
         </li>
         <li>
-          <a href="Mailto:orca2017@sina.cn">
-            <img src="./email.png" alt="邮件" title="邮件">
-            <p>orca2017@sina.cn</p>
+          <a href="https://cangyuan.github.io">
+            <i class="iconfont icon-blog"></i>
+            <p>我的博客</p>
           </a>
         </li>
       </ul>
@@ -72,13 +72,14 @@ export default {
   .co-content>ul>li>a{
     opacity: .4;
     color: #777;
+    text-decoration: none;
   }
   .co-content>ul>li>a:hover{
     opacity: 1;
     color: #000
   }
-  .co-content>ul>li>a>img{
-    width: 40px;
+  .co-content>ul>li>a>i{
+    font-size: 42px;
     margin: 10px 0;
   }
 </style>

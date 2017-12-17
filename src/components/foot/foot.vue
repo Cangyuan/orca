@@ -12,28 +12,32 @@
           </div>   
           <div class="list_left list">
             <span class="big_squre"><i>2017</i></span>
-            <div class="ev_text ev_text_event ev_t2" :class="footActive?'aActiveWid':''">
+            <div class="ev_text ev_text_event ev_t2">
+              <span class="small_squire"><i></i></span><span class="small_line"></span>
+              <h3>天太机器人</h3>
+              <p>2017/09 ~ 2017/10</p>
+              <p>负责项目的原型制作，参与优订订货平台的前端框架选型，UI布局优化以及前端开发工作。</p>
+            </div>
+          </div>
+          
+          <div class="list_right list">
+            <span class="big_squre"><i>2016</i></span>
+            <div class="ev_text ev_text_event ev_t3">
+              <span class="small_squire"><i></i></span><span class="small_line"></span>
+              <h3>广东辰宜信息科技有限公司</h3>
+              <p>2016/03 ~ 2017/08</p>
+              <p>独立开发广东辰宜信息科技有限公司官网，负责公司官网的升级和维护，响应式布局PC端和手机端，项目的原型以及网页
+面设计、前端开发等工作。</p>
+            </div>
+          </div>
+
+          <div class="list_left list">
+            <span class="big_squre"><i>2015</i></span>
+            <div class="ev_text ev_text_event ev_t3">
               <span class="small_squire"><i></i></span><span class="small_line"></span>
               <h3>佛山市亿动网络有限公司</h3>
-              <p>2015年2月~2016年3月</p><p>产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作</p>
-            </div>
-          </div>
-          <div class="list_right list">
-            <span class="big_squre"><i>2017</i></span>
-            <div class="ev_text ev_text_event ev_t3" :class="footActive?'aActiveWid':''">
-              <span class="small_squire"><i></i></span><span class="small_line"></span>
-              <h3>广东辰宜信息科技有限公司</h3>
-              <p>2016年3月至今</p>
-              <p>负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等</p>
-            </div>
-          </div>
-          <div class="list_right list">
-            <span class="big_squre"><i>2017</i></span>
-            <div class="ev_text ev_text_event ev_t3" :class="footActive?'aActiveWid':''">
-              <span class="small_squire"><i></i></span><span class="small_line"></span>
-              <h3>广东辰宜信息科技有限公司</h3>
-              <p>2016年3月至今</p>
-              <p>负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等</p>
+              <p>2015/05 ~ 2016/02</p>
+              <p>负责PC端移动端页面制作。PSD切图后构建页面框架 利用HTML、JS、CSS3书写前端功能，让页面更充实丰富。</p>
             </div>
           </div>
         </div>
@@ -42,30 +46,34 @@
     </div>
   </section>
 </template>
-<script src="../../common/js/jquery.eventFlow.js"></script>
 <script>
 export default {
   name: 'foot',
   data () {
     return {
       //footActive:true,
-      bigEvent: [{
-        'year' : 2015,
-        'events' :[{
-          'mouths' : 2,
-          'times' :'2015年2月~2016年3月',
-          'title':'佛山市亿动网络有限公司',
-          'even' :'产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作'
-        }]
-      },{
-        'year' : 2017,
-        'events' :[{
-          'mouths' : 3,
-          'title':'广东辰宜信息科技有限公司',
-          'times' :'2016年3月至今',
-          'even' :'负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等'
-        }]
-      }]
+    //   jobEvents: [{
+    //     'year' : 2017,
+    //     'info' :[{
+    //       'mouths' : 2,
+    //       'times' :'2015年2月~2016年3月',
+    //       'title':'佛山市亿动网络有限公司',
+    //       'even' :'产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作'
+    //     },{
+    //       'mouths' : 3,
+    //       'times' :'2015年2月~2016年3月',
+    //       'title':'佛山市亿动网络有限公司',
+    //       'even' :'产品部工作，负责网站测试以及建站工作，配合后端维护，指导客户建站的顺利进行，做前端页面的开发工作'
+    //     }]
+    //   },{
+    //     'year' : 2016,
+    //     'info' :[{
+    //       'mouths' : 3,
+    //       'title':'广东辰宜信息科技有限公司',
+    //       'times' :'2016年3月至今',
+    //       'even' :'负责项目的原型制作和前端页面的设计、编写以及维护工作，例如完成南海区一窗通办填表系统原型以及其前端页面的开发和维护工作、公司官网的PC以及手机端页面独立制作（新闻版块后台交互后端人员协助完成）、佛山市中小企业公共服务平台的原型制作等'
+    //     }]
+    //   }]
     }
   },
   methods:{
@@ -409,9 +417,9 @@ export default {
   .big_squre i{transform:rotate(-45deg);-webkit-transform: rotate(-45deg);display: block;position: absolute;left: 0;color: #fff;top: 50%;margin-top:-9px;font-size: 18px;width:100%;text-align: center;}
   .small_squire{position:absolute;top:11px;display:block;height:12px;width:12px;padding:3px;border-radius: 3px;transform:rotate(45deg);-webkit-transform:rotate(45deg);background-color: #6e6e6e;}
   .small_squire i{display:block;width:12px;height:12px;background-color: #fff;border-radius: 3px;}
-  .event_wrap .list{height:300px;position:relative;padding-top: 75px;}
+  .event_wrap .list{height:120px;position:relative;padding-top: 75px;}
   .aActiveWid{width:50% !important;filter:alpha(opacity=100) !important;opacity:1 !important;}
-  .event_wrap .list:last-child{height:275px;}
+  .event_wrap .list:last-child{height:200px;}
   .event_wrap .list .ev_text{position:absolute;opacity:0.1;filter:alpha(opacity=10);width:0px;overflow: hidden; 
       -o-transition: all 3s ease;
       -moz-transition: all 3s ease;

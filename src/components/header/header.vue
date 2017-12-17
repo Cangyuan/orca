@@ -20,7 +20,7 @@
   		        <div class="nav-wrap">
   		          <nav>
   		          	<div class="small-nav">
-  		          		<img src="images/nav.png" alt="">
+  		          		<!-- <img src="images/nav.png" alt=""> -->
   		          	</div>
   		          	<span class="head-me" @click="openMe"><img src="./me.png" alt=""></span>
   		            <ul>
@@ -40,7 +40,7 @@
   		    </div>
   	  	</div>
   		<div class="loading_bar">
-  		  	<img src="images/loading.gif" alt="">
+  		  	<!-- <img src="images/loading.gif" alt=""> -->
   		</div>
   	</header>
   </div>
